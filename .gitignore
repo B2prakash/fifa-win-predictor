@@ -20,8 +20,8 @@ ENV/
 .AppleDouble
 .LSOverride
 
-# Trained models (large binary files)
-models/*.pkl
+# Trained models (large binary files — backups only, keep the active model)
+models/*_backup.pkl
 
 # IDE
 .vscode/
